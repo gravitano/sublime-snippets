@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{{ \$errors->first('${1:name}', '<div class="text-danger">:message</div>') }}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>errf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+@extends('${1:layouts.master}')
+
+@section('${2:content}')
+
+	${3://}
+
+@endsection
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ext</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
